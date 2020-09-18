@@ -17,7 +17,7 @@ public class base {
 
 	public void setup() {
 		
-		System.setProperty("webdriver.chrome.driver", "D:\\Siddharth\\Study\\Workspace\\Selenium\\Driver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "/TestNG_Selenium/Drivers/chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.redbus.in/");
